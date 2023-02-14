@@ -1,0 +1,37 @@
+.container {
+  width: 1145px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+} 
+
+.contacts ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 5px 0 5px 0;
+  font-size: 12px;
+}
+
+.contact-bar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.banner {
+  width: 100%;
+  height: 80vh;
+  background: rgba(0,0,0) url('https://fatecriopreto.edu.br/admin/uploads/images/banners/thumbnail_banner-1.jpg" alt="banner cursos superiores') center center;
+  background-size: cover;
+  top: 0;
+}
+
+
